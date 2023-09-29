@@ -1,14 +1,18 @@
+$color1: #af74af;
+$color2: #85d5de;
+$color3: antiquewhite;
+
 .navbar{
     background-color: #85d5de;
     background-image: linear-gradient(to right, #85d5de, #af74af);
 }
 .navbar-brand{
-    color: #af74af !important;
+    color: $color1 !important;
    
 }
 
 .nav-link{
-    color: antiquewhite !important;
+    color: $color3 !important;
 }
 
 .img{
